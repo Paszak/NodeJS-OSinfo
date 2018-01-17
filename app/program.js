@@ -1,4 +1,4 @@
-var OSinfo = require('../modules/OSinfo');
+var osinfo = require('../modules/OSinfo');
 
 process.stdin.setEncoding('utf-8');
 console.log('Dostępne komendy to /exit | /info | /getOSinfo');
@@ -17,7 +17,7 @@ process.stdin.on('readable', function() {
     		break;
 
     		case '/getOSinfo':
-    			OSinfo.print();
+    			osinfo.print();
     		break;
 
     		default:
