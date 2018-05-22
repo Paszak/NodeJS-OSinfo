@@ -1,2 +1,2 @@
-# zadanie_13_5
- npm, czyli jak nie wymyślać koła na nowo
+# NodeJS-OSinfo
+ Wypisanie informacji o systemie w konsoli z pomocą modułu colors
